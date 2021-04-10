@@ -1,0 +1,95 @@
+.signup_container{
+    background-color: #F8F9FA;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.signup_container .signup_section {
+    width: 70%;
+    background-color: #ffffff;
+    margin: 10px auto;
+    padding: 15px;
+    -webkit-box-shadow: 0 0 5px 5px #9c9c9c;
+    -moz-box-shadow: 0 0 5px 5px #9c9c9c;
+    box-shadow: 0 0 5px 5px #9c9c9c;
+    border-radius: 8px;
+}
+
+.signup_title {
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.signup_form_main {
+    padding: 25px;
+}
+
+.signup_container .signup_section img {
+    width: 85%;
+    display: block;
+}
+
+.signup_container .signup_section .signup_form_container .form-control {
+    border: 0;
+}
+
+.signup_container .signup_section .signup_form_container .form-group{
+    border-bottom: 1px solid #D4D3D4;
+}
+
+.signup_container .signup_section .signup_form_container .form-control:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.icon_container .icon {
+    margin-bottom: -6px;
+}
+
+.form_filed_container{
+    width: 100%;
+}
+
+.form_filed_container .icon_container{
+    width: 5%;
+}
+
+.form_filed_container .icon_container .form-label{
+    cursor: pointer;
+}
+
+.form_filed_container .filed_container{
+    width: 95%;
+}
+
+.signup_img_container{
+    padding-top: 90px;
+}
+
+.for_register,
+.for_mobile_register{
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.for_mobile_register{
+    display: none;
+}
+
+@media (max-width: 634px) {
+    .signup_container .signup_section{
+        width: 96%;
+    }
+
+    .for_mobile_register{
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .signup_container .signup_section img,
+    .for_register {
+        display: none;
+    }
+}

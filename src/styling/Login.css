@@ -1,0 +1,139 @@
+.login_container{
+    background-color: #F8F9FA;
+    overflow-y: hidden;
+    min-height: 86vh;
+    width: 100%;
+}
+
+.login_container .login_section {
+    width: 70%;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 15px;
+    -webkit-box-shadow: 0 0 5px 5px #9c9c9c;
+    -moz-box-shadow: 0 0 5px 5px #9c9c9c;
+    box-shadow: 0 0 5px 5px #9c9c9c;
+    border-radius: 8px;
+}
+
+.login_title {
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.login_form_main {
+    padding: 25px;
+    padding-top: 60px;
+}
+
+.login_container .login_section img {
+    width: 100%;
+}
+
+.login_container .login_section .login_form_container .form-control {
+    border: 0;
+}
+
+.login_container .login_section .login_form_container .form-group{
+    border-bottom: 1px solid #D4D3D4;
+}
+
+.login_container .login_section .login_form_container .form-control:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.icon_container .icon {
+    margin-bottom: -6px;
+}
+
+.form_filed_container{
+    width: 100%;
+}
+
+.form_filed_container .icon_container{
+    width: 5%;
+}
+
+.form_filed_container .icon_container .form-label{
+    cursor: pointer;
+}
+
+.form_filed_container .filed_container{
+    width: 95%;
+}
+
+.login_img_container{
+    padding-top: 40px;
+}
+
+.for_register,
+.for_mobile_register{
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.for_mobile_register{
+    display: none;
+}
+
+.login_with_container{
+    padding-top: 25px;
+}
+
+.login_with{
+    font-weight: 700;
+    margin-right: 12px;
+}
+
+/* .social_icon_container{
+    
+} */
+
+.social_icon_container .twitter{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.facebook, .twitter, .google{
+    width: 30px;
+    background-color: #244B84;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.twitter{
+    background-color: #1783CD;
+}
+
+.google{
+    background-color: #E43629;
+}
+.social_icon{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 634px) {
+    .login_container .login_section{
+        width: 96%;
+    }
+
+    /* .for_mobile_register{
+        display: inline-block;
+        margin-left: 10px;
+    } */
+
+    /* .login_container .login_section img,
+    .for_register {
+        display: none;
+    } */
+}

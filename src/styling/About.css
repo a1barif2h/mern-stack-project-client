@@ -1,0 +1,152 @@
+.about_main_container{
+    background-color: #F8F9FA;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.about_content_container{
+    width: 85%;
+    margin: 20px auto;
+    -webkit-box-shadow: 0 0 5px 5px #9c9c9c;
+    -moz-box-shadow: 0 0 5px 5px #9c9c9c;
+    box-shadow: 0 0 5px 5px #9c9c9c;
+    border-radius: 8px;
+    padding: 25px;
+    background-color: #fff;
+}
+
+.about_container{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about_img_section{
+    width: 30%;
+}
+
+.about_img{
+    width: 90%;
+}
+
+.about_img>img {
+    width: 100%;
+}
+
+.about_title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #3E4453;
+}
+
+.about_title>p{
+    line-height: 100%;
+    cursor: pointer;
+}
+
+.about_title>p:hover,
+.profile_title{
+    color: #0069D9;
+}
+
+.profile_content{
+    width: 70%;
+}
+
+.profile_content_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    padding-top: 25px;
+}
+
+.profile_main_content{
+    font-size: 18px;
+    font-weight: 700;
+    color: #3E4453;
+    line-height: 100%;
+}
+
+.profile_ranking{
+    font-size: 15px;
+}
+
+.edit_profile,
+.edit_profile:hover,
+.edit_profile:focus{
+    background-color: #fff;
+    border: 0;
+    color: #3E4453;
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 5px #9c9c9c;
+}
+
+.about_content{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.about_value{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0069D9;
+}
+
+.timeline_title{
+    font-size: 32px;
+    font-weight: 900;
+    color: #9c9c9c;
+}
+
+.tab{
+    font-weight: 800;
+    color: rgb(105, 105, 105);
+}
+
+.tabBottom{
+    border: 0;
+    border-bottom: 2.5px solid #ddd;
+    width: 45%;
+    margin-left: 0;
+    margin-top: 2px;
+
+}
+
+.about{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.tab_active{
+    color: #1472DF;
+    border-bottom: 3px solid #0069D9;
+}
+
+.timeline{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .about_content_container{
+        width: 95%;
+    }
+
+    .about_container{
+        display: block;
+    }
+
+    .about_img_section{
+        width: 100%;
+    }
+
+    .profile_content{
+        width: 100%;
+    }
+
+    .profile_content_header{
+        display: block;
+    }
+}
